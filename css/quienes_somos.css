@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+#contenedor_grande {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  background: transparent;
+  color: white;
+}
+
+#encabezado {
+  margin-top: 5px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  background: transparent;
+}
+
+#contenedor {
+  margin-top: 5px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  opacity: 0.8;
+  background: transparent;
+  color: white;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+
+body {
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  padding-bottom: 3px;
+  margin: auto 0px 0px 0px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.separador {
+  height: 50px;
+}
+
+.texto_footer {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: courier;
+}
+
+.texto_principal {
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-left: 65px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: transparent;
+  color: white;
+  font-family: arial sans-serif;
+  border: 3px ridge black;
+  background-image: url('../imagenes/wall1.png');
+  background-repeat: round;
+  background-attachment: fixed;
+  opacity: 1;
+  border-radius: 60px;
+}
+
+.cont {
+  background-image: url('../imagenes/wall1.png');
+  background-repeat: round;
+  background-attachment: fixed;
+  border: 3px ridge black;
+  width: 720px;
+  padding-left: 8px;
+  border-radius: 30px;
+}

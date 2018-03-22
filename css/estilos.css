@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+body {
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+.texto_principal {
+  color: white;
+  font-weight: bolder;
+  font-family: arial sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  font-family: arial sans-serif;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  margin-top: 28px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: arial sans-serif;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  padding-bottom: 3px;
+  margin: auto 0px 0px 0px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.separador {
+  height: 120px;
+}
+
+.texto_footer {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: courier;
+}
